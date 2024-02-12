@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -24,19 +24,19 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Data Science student studying at Swansea University. I have a passion for all things artifical intellgience and machine learning. I am always looking for new and exciting projects to work on.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Exploratory data analysis",
+  "Machine learning",
+  "Deep learning",
+  "Statistical analysis",
+  "Data visualization",
+  "Natural language processing",
 ];
 
 /**
@@ -45,7 +45,9 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about using artificial intelligence to help people solve problems, learn new things, and have fun. I enjoy working on challenging and diverse projects that require creativity, collaboration, and curiosity. I also like to share my knowledge and insights with others through engaging and informative conversations. One of my favorite quotes is: \
+  “The most powerful tool we have as developers is automation.” - Scott Hanselman. \
+  I hope this gives you a glimpse of who I am and what I do. :)";
 
 const About = () => {
   return (
